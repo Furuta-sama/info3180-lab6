@@ -1,6 +1,27 @@
 body {
     padding-top: 5rem;
 }
+.news__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+    row-gap: 80px;
+    padding: 15px;
+    list-style-type: none;
+}
+
+.news__list li {
+    border: solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 0px 5px #48BB78;
+    padding: 15px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    padding: 50px;
+}
 
 footer  {
     padding-top: 20px;
